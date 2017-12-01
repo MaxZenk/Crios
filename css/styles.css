@@ -1,0 +1,305 @@
+*,
+*:after,
+*:before {
+	box-sizing: border-box;
+}
+html {
+	font-family: 'Montserrat', sans-serif;
+}
+body {
+	text-align: center;
+}
+h1 {
+	font-size: 48px;
+}
+p {
+	color: #dadcde;
+	font-size: 16px;
+	line-height: 36px;
+}
+#wrapper {
+	margin: 0 auto;
+	width: 100%;
+}
+#main-content {
+	display: block;
+	margin: 0 auto;
+	max-width: 1440px;
+	padding: 0 15px;
+}
+.main-menu {
+	display: inline-block;
+	float: left;
+	margin-top: 57px;
+}
+.circle {
+	border-radius: 50%;
+	box-shadow: 0 0 65px #dae4ef;
+	height: 60px;
+	width: 60px;
+}
+.main-menu .ico-menu .lines {
+	padding-top: 11px;
+}
+.main-menu .ico-menu hr {
+	background-color: #000;
+	border: none;
+	height: 2px;
+	width: 18px;
+}
+.main-menu ul li {
+	list-style-type: none;
+}
+.main-logo {
+	display: inline-block;
+}
+.main-logo .logo-circle {
+	border-radius: 65%;
+	box-shadow: 0 0 65px #dae4ef;
+	display: inline-block;
+	height: 414px;
+	margin-top: -207px;
+	width: 414px;
+}
+.main-logo .logo-title {
+	color: #43a9ff;
+	font-size: 48px;
+	margin-top: -165px;
+	text-transform: uppercase;
+}
+.main-logo .logo-subtitle {
+	color: #e9ebec;
+	font-size: 18px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.main-search {
+	display: inline-block;
+	float: right;
+	margin-top: 57px;
+}
+.main-search .ico-search {
+	background-image: url(../images/search.svg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	display: inline-block;
+	height: 22px;
+	margin: 19px auto;
+	width: 22px;
+}
+.main-header h1 {
+	margin-top: 17%;
+}
+.simple-psd-template {
+	background-image: url(../images/bg-horse.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+	height: 1333px;
+	width: 100%;
+}
+.simple-psd-template p {
+	font-size: 18px;
+	line-height: 18px;
+}
+.simple-psd-template .main-button {
+	margin: 80px 0 900px 0;
+}
+.main-button {
+	background-color: #fff;
+	border: none;
+	border-radius: 35px;
+	box-shadow: 0 0 65px #dae4ef;
+	color: #43a9ff;
+	font-size: 14px;
+	height: 51px;
+	line-height: 18px;
+	padding: 0;
+	text-transform: uppercase;
+	width: 229px;
+}
+.offer {
+	margin-top: -240px;
+}
+.offer .offer-row {
+	margin: 95px 0 90px;
+}
+.offer .col {
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	width: 338px;
+}
+.offer .ico-col1,
+.offer .ico-col2,
+.offer .ico-col3,
+.offer .ico-col4 {
+	background-position: center center;
+	background-repeat: no-repeat;
+	height: 47px;
+	margin: 50px auto;
+	width: 50px;
+}
+.offer .ico-col1 {
+	background-image: url(../images/col-ico-1.png);
+}
+.offer .ico-col2 {
+	background-image: url(../images/col-ico-2.png);
+}
+.offer .ico-col3 {
+	background-image: url(../images/col-ico-3.png);
+}
+.offer .ico-col4 {
+	background-image: url(../images/col-ico-4.png);
+}
+.offer p {
+	font-size: 18px;
+}
+.offer .col .title-col {
+	font-size: 18px;
+	line-height: 1.5;
+	margin-bottom: 40px;
+}
+.offer .col p {
+	font-size: 14px;
+	line-height: 24px;
+}
+.offer .main-button {
+	margin-bottom: 120px;
+}
+.box-row,
+.john-row {
+	background-color: #f7f8fb;
+	clear: both;
+	position: relative;
+}
+.john-row {
+	height: 628px;
+}
+.box-row .box-text {
+	display: inline-block;
+	vertical-align: middle;
+	width: 49.7%;
+}
+.box-row .box-image2,
+.box-row .box-image {
+	display: inline-block;
+	vertical-align: middle;
+	width: 50%;
+}
+.apps-block {
+	overflow: hidden;
+	position: relative;
+}
+.snow-q {
+	left: 20px;
+	top: -100px;
+}
+.snow-w {
+	bottom: -190px;
+	right: -120px;
+}
+.snow-q,
+.snow-w {
+	position: absolute;
+	z-index: -1;
+}
+.stack-one,
+.stack-two {
+	clear: both;
+	z-index: 2;
+}
+.palyer-app {
+	padding: 160px 6% 180px 23%;
+}
+.player-app-img,
+.chat-app-img {
+	width: 100%;
+}
+.chat-app {
+	padding: 0 23% 180px 6%;
+}
+.chat-app-img {
+	margin-top: -40px;
+}
+.palyer-app-about h1,
+.chat-app-about h1 {
+	color: #43a9ff;
+}
+.palyer-app-about h1,
+.palyer-app-about p,
+.chat-app-about h1,
+.chat-app-about p {
+	text-align: left;
+	width: 60%;
+}
+.chat-app-about h1,
+.chat-app-about p {
+	float: right;
+}
+.palyer-app-about {
+	margin-top: -50px;
+}
+.chat-app-about {
+	margin-top: -240px;
+}
+.palyer-app,
+.palyer-app-about,
+.chat-app,
+.chat-app-about {
+	display: inline-block;
+	vertical-align: middle;
+	width: 49.85%;
+}
+.john .john-row {
+	z-index: -2;
+}
+.john h1 {
+	color: #fe3254;
+}
+.john .john-col-1 {
+	display: inline-block;
+	width: 52%;
+}
+.snow-man,
+.snow-man2 {
+	left: 257px;
+	position: absolute;
+	top: 60px;
+}
+.snow-man {
+	z-index: -1;
+}
+.snow-man2 {
+	opacity: .15;
+}
+.john-photo {
+	bottom: 0;
+	left: 25px;
+	position: absolute;
+	z-index: -1;
+}
+.john .john-col-2 {
+	display: inline-block;
+	padding-top: 168px;
+	text-align: left;
+}
+.about-john .title {
+	font-size: 18px;
+	padding-top: 40px;
+}
+.about-john p {
+	margin: 0;
+}
+.main-footer {
+	background-image: url(../images/bg-footer.png);
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	height: 1400px;
+	width: 100%;
+}
+.main-footer p {
+	margin: 130px 0 10px 0;
+}
+.main-footer .main-button {
+	margin-top: 90px;
+}
